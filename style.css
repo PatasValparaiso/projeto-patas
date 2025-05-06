@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo {
+  height: 60px;
+}
+#search {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+#animal-list {
+  width: 60%;
+}
+.animal {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.charts {
+  width: 35%;
+}
+.card {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #003366;
+}
+#patas-img {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+footer {
+  text-align: right;
+  padding: 10px;
+}
+.credit {
+  font-size: 12px;
+  color: #666;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projeto Patas Valparaíso</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <img src="logo1.png" class="logo" id="logo1"/>
+    <img src="logo2.png" class="logo" id="logo2"/>
+    <img src="logo3.png" class="logo" id="logo3"/>
+  </header>
+  <main>
+    <input type="text" id="search" placeholder="Buscar animal..."/>
+    <div class="content">
+      <div id="animal-list"></div>
+      <div class="charts">
+        <div class="card" id="total-animals">Animais: 0</div>
+        <canvas id="chart-castration"></canvas>
+        <canvas id="chart-vaccines"></canvas>
+      </div>
+    </div>
+    <img src="patas.png" id="patas-img"/>
+  </main>
+  <footer>
+    <div class="credit">Criado por Rennor Oliveira</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
